@@ -1,6 +1,10 @@
-// Import stylesheets
-import './style.css';
+var name1="welcome to Infosys"
+var name2="Have a Beautifual day"
 
-// Write Javascript code!
-const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>JS Starter</h1>`;
+console.log(name1.length)
+console.log(name2.length)
+
+for(var i=0; i<name1.length; i++ )
+{
+  console.log(name1[i])
+}
